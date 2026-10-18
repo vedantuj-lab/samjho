@@ -1,0 +1,7 @@
+{
+  "name": "Samjho",
+  "description": "AI-powered document explainer for students, renters, and young adults in India to decode dense legal, rental, and bureaucratic documents in 30 seconds.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
