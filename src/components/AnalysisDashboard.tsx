@@ -219,7 +219,7 @@ export const AnalysisDashboard: React.FC<AnalysisDashboardProps> = ({
       </div>
 
       {/* TOP VERDICT CARD */}
-      <div className={`p-6 sm:p-8 rounded-3xl border ${scoreBorder} bg-white dark:bg-slate-900 shadow-xl relative overflow-hidden break-inside-avoid`}>
+      <div className={`p-6 sm:p-8 rounded-3xl border ${scoreBorder} bg-white dark:bg-slate-900 shadow-xl relative overflow-hidden break-inside-avoid animate-fade-in-up stagger-1`}>
         <div className="flex flex-col sm:flex-row items-center sm:items-start gap-6">
           {/* Circular Clarity Score Gauge */}
           <div className="relative w-32 h-32 flex flex-col items-center justify-center shrink-0">
@@ -291,7 +291,7 @@ export const AnalysisDashboard: React.FC<AnalysisDashboardProps> = ({
       </div>
 
       {/* SECTION 1: Summary at a Glance */}
-      <div className="bg-white dark:bg-slate-900 rounded-3xl border border-slate-200 dark:border-slate-800 p-6 sm:p-8 shadow-sm space-y-4 break-inside-avoid">
+      <div className="bg-white dark:bg-slate-900 rounded-3xl border border-slate-200 dark:border-slate-800 p-6 sm:p-8 shadow-sm space-y-4 break-inside-avoid animate-fade-in-up stagger-2">
         <div className="flex items-center gap-2">
           <div className="w-8 h-8 rounded-lg bg-indigo-100 dark:bg-indigo-950 text-indigo-600 dark:text-indigo-400 flex items-center justify-center">
             <Layers className="w-4 h-4" />
@@ -317,7 +317,7 @@ export const AnalysisDashboard: React.FC<AnalysisDashboardProps> = ({
       </div>
 
       {/* SECTION 2: Key Dates & Urgency Timeline */}
-      <div className="bg-white dark:bg-slate-900 rounded-3xl border border-slate-200 dark:border-slate-800 p-6 sm:p-8 shadow-sm space-y-4 break-inside-avoid">
+      <div className="bg-white dark:bg-slate-900 rounded-3xl border border-slate-200 dark:border-slate-800 p-6 sm:p-8 shadow-sm space-y-4 break-inside-avoid animate-fade-in-up stagger-3">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">
             <div className="w-8 h-8 rounded-lg bg-rose-100 dark:bg-rose-950 text-rose-600 dark:text-rose-400 flex items-center justify-center">
@@ -381,7 +381,7 @@ export const AnalysisDashboard: React.FC<AnalysisDashboardProps> = ({
       </div>
 
       {/* SECTION 3: Money & Financial Breakdown */}
-      <div className="bg-white dark:bg-slate-900 rounded-3xl border border-slate-200 dark:border-slate-800 p-6 sm:p-8 shadow-sm space-y-4 break-inside-avoid">
+      <div className="bg-white dark:bg-slate-900 rounded-3xl border border-slate-200 dark:border-slate-800 p-6 sm:p-8 shadow-sm space-y-4 break-inside-avoid animate-fade-in-up stagger-4">
         <div className="flex items-center gap-2">
           <div className="w-8 h-8 rounded-lg bg-amber-100 dark:bg-amber-950 text-amber-600 dark:text-amber-400 flex items-center justify-center">
             <IndianRupee className="w-4 h-4" />
@@ -436,7 +436,7 @@ export const AnalysisDashboard: React.FC<AnalysisDashboardProps> = ({
       </div>
 
       {/* SECTION 4: Red Flag Alert Box (Crucial Feature) */}
-      <div className="bg-white dark:bg-slate-900 rounded-3xl border border-rose-200 dark:border-rose-900/60 p-6 sm:p-8 shadow-md space-y-5 break-inside-avoid">
+      <div className="bg-white dark:bg-slate-900 rounded-3xl border border-rose-200 dark:border-rose-900/60 p-6 sm:p-8 shadow-md space-y-5 break-inside-avoid animate-fade-in-up stagger-5">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">
             <div className="w-8 h-8 rounded-lg bg-rose-500 text-white flex items-center justify-center shadow-xs">
@@ -523,7 +523,7 @@ export const AnalysisDashboard: React.FC<AnalysisDashboardProps> = ({
       </div>
 
       {/* SECTION 5: Interactive Action Checklist */}
-      <div className="bg-white dark:bg-slate-900 rounded-3xl border border-slate-200 dark:border-slate-800 p-6 sm:p-8 shadow-sm space-y-4 break-inside-avoid">
+      <div className="bg-white dark:bg-slate-900 rounded-3xl border border-slate-200 dark:border-slate-800 p-6 sm:p-8 shadow-sm space-y-4 break-inside-avoid animate-fade-in-up stagger-6">
         <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2">
           <div className="flex items-center gap-2">
             <div className="w-8 h-8 rounded-lg bg-emerald-100 dark:bg-emerald-950 text-emerald-600 dark:text-emerald-400 flex items-center justify-center">
